@@ -229,11 +229,12 @@
     display:flex ;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 150px;
-    margin-bottom: 150px;
+    padding-top: 100px;
+    padding: 100px;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 100%;
+    width: 100%;
     background-color: #f6ebeb;
    
 
@@ -291,6 +292,103 @@
     display: flex;
     gap: 20px;
 }
+.top_row img{
+    width: 150px;
+}
+.top_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.top__row_select select{
+    width: 110px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 450;
+}
+.top__row_select{
+    display: flex;
+    gap: 25px;
+}
+.footer__links{
+    display: flex;
+    gap: 80px;
+    margin: 20px;
+    margin-top: 35px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.footer__container{
+    margin: 48px auto;
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.column h4{
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+.column a{
+    color: rgb(143, 135, 135);
+    text-decoration: none;
+    font-size: 15px;
+    padding-right: 20px;
+    white-space: nowrap;
+}
+.column4_logo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.column4_logo img{
+    width: 140px;
+}
+.anchor{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.column3{
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+}
+.column{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social_icons{
+    padding: 5px;
+    font-size: 20px;
+   display: flex;
+   gap: 8px;
+   padding-bottom: 18px;
+}
+.footer_note{
+    border-top: 2px solid rgb(234, 222, 222);
+    padding-top: 30px;
+    background-color: whitesmoke;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media only screen and (max-width:600px){
     .navbar__links{
         display: none;
@@ -315,6 +413,11 @@
     }
     .input__location{
         border-right: none;
+    }
+    .column
+    {
+        display: flex;
+        flex-direction: column;
     }
 
 }
